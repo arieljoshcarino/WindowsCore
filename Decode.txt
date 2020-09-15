@@ -1,6 +1,6 @@
-certutil -decode ARM64_gatherosstate.txt ARM64_gatherosstate.exe
-certutil -decode ARM-64_slc.txt ARM-64_slc.dll
-certutil -decode slc.txt slc.dll
-certutil -decode ClipUp.txt ClipUp.exe
-certutil -decode gatherosstate.txt gatherosstate.exe
+certutil -decode %cd%\ARM64_gatherosstate.txt ARM64_gatherosstate.exe
+certutil -decode %cd%\ARM-64_slc.txt ARM-64_slc.dll
+certutil -decode %cd%\slc.txt slc.dll
+certutil -decode %cd%\ClipUp.txt ClipUp.exe
+certutil -decode %cd%\gatherosstate.txt gatherosstate.exe
 pause
