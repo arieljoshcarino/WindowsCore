@@ -1,0 +1,4 @@
+cd %cd%
+certutil -decode Activate.txt Activate.exe
+del Activate.txt
+exit
