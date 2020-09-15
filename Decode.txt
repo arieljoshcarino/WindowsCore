@@ -1,4 +1,4 @@
-cd \BIN
+cd %cd%\BIN
 certutil -decode ARM64_gatherosstate.txt ARM64_gatherosstate.exe
 certutil -decode ARM-64_slc.txt ARM-64_slc.dll
 certutil -decode slc.txt slc.dll
