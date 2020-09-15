@@ -3,9 +3,4 @@ certutil -decode ARM-64_slc.txt ARM-64_slc.dll
 certutil -decode slc.txt slc.dll
 certutil -decode ClipUp.txt ClipUp.exe
 certutil -decode gatherosstate.txt gatherosstate.exe
-del ARM64_gatherosstate.txt
-del ARM-64_slc.txt
-del slc.txt
-del ClipUp.txt
-del gatherosstate.txt
 exit
